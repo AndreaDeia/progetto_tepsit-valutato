@@ -1,0 +1,5 @@
+Procedimenti per avviare il programma :
+1)Se non è gia installato, installare python
+2)Scaricare dalla repository i due file SCD e CCD
+3)aprire i due file su un programma che riesca a leggere il linguaggio python 
+4)avviare prima SCD e poi CCD 
