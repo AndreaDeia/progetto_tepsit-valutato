@@ -221,6 +221,7 @@ if __name__ == "__main__" :
         if data.decode() == "topogigio" :
             conn.send("password accettata, premere invio. \n".encode())
             th = t.Thread(target=comm_tabella(lista_connessioni[i],data),args=(lista_connessioni[i],data))
+            th.start()
         else :
             TRY = TRY + 1
             conn.send("inserisci di nuovo la password :".encode())
